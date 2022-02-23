@@ -13,7 +13,7 @@ function App() {
       // const followersList = await axios.get('https://catfact.ninja/fact');
 
       const followersList = await axios.get(
-        'https://api.twitter.com/2/users/1269635675684569088/followers',
+        'https://api.twitter.com/1.1/followers/list.json?cursor=-1&screen_name=Mo__Huzaifa&skip_status=true&include_user_entities=false',
         {
           headers: {
             Authorization:
